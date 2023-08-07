@@ -1,0 +1,135 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 17vh;
+    width: 100%;
+    background-color: rgb(3, 3, 31);
+    justify-content: center;
+}
+.photo{
+    height: 80px;
+    width: 80px;
+    border-radius: 2px;
+    border-color: aliceblue;
+}
+li{
+    display: inline-block;
+    padding: 0 20px;
+   
+   
+
+}
+nav{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    font-size: 48px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+    
+}
+li:hover{
+    background: rgb(3, 3, 31);
+    border-radius: 12px;
+    color: aliceblue;
+}
+.teams{
+    padding: 20px;
+    background-color: rgb(6, 6, 57);
+    color: aliceblue;
+    height: auto;
+    width: auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+}
+.csk{
+    border: 7px solid yellow;
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+    
+}
+.mi{
+    border: 7px solid rgb(45, 19, 160);
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+}
+.rr{
+    border: 7px solid rgb(192, 54, 169);
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+}
+.gt{
+    border: 7px solid rgb(55, 81, 95);
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+}
+.kkr{
+    border: 7px solid rgb(76, 8, 127);
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+}
+.rcb{
+    border: 7px solid rgba(177, 9, 9, 0.712);
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+font-family: 'Bruno Ace SC', cursive;
+}
+.trophy {
+    text-align: center;
+}
+.csk:hover{
+   background-color: yellow;
+   color: black;
+
+}
+.mi:hover{
+    background-color: rgb(47, 47, 186);
+
+}
+.kkr:hover{
+    background-color: rgb(76, 8, 127);
+}
+.rcb:hover{
+    background-color: rgba(177, 9, 9, 0.712);
+}
+.gt:hover{
+    background-color:  rgb(55, 81, 95);
+}.rr:hover{
+    background-color: rgb(192, 54, 169);
+}
